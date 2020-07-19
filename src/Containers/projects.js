@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Projects extends Component {
+export default class ProjectsContainer extends Component {
 
     render(){
         return(
