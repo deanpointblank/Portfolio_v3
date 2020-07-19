@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { ProjectCarosal } from '../Components/projectCarosal';
+import { ProjectDisplay } from '../Components/projectDisplay';
+import { ProjectList } from '../Components/projectsList';
 
 export default class ProjectsContainer extends Component {
 
@@ -6,6 +9,9 @@ export default class ProjectsContainer extends Component {
         return(
             <div>
                 <p>This is the Projects page</p>
+                <ProjectList />
+                <ProjectDisplay />
+                <ProjectCarosal />
             </div>
         )
     }
