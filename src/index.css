@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
 html {
   height: 100%;
 }
 
 body {
   background-color: #ffe8df;
+  font-family: 'Metrophobic', sans-serif;
 }
 
 .container-fluid {
   height: 100vh;
 }
 
+.homeAbout {
+  background-color: #888888;
+  color: white;
+}

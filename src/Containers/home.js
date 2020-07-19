@@ -9,7 +9,7 @@ export default class HomeContainer extends Component {
     render(){
         return(
             <>
-                <Row className="h-50">
+                <Row className="h-50 homeAbout">
                     <HomeAbout />
                 </Row>
                 <Row className="h-50">
