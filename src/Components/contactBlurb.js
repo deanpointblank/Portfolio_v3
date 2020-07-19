@@ -1,4 +1,6 @@
-export const ContactBlurn = () => {
+import React, { Component } from 'react';
+
+export const ContactBlurb = () => {
     return(
         <div>
             <h2>Get in Touch</h2>
