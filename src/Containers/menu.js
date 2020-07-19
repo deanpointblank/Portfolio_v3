@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
+import { Nav } from 'react-bootstrap';
 
 export default class MenuContainer extends Component {
 
     render(){
         return(
-            <div>
-                <ul>
-                    <li>Dean Betty</li>
-                    <li>Projects</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
+            <Nav defaultActiveKey="/" className="flex-column">
+                    <Nav.Link href="/">Dean Betty</Nav.Link>
+                    <Nav.Link href="/projects">Projects</Nav.Link>
+                    <Nav.Link href="/blog">Blog</Nav.Link>
+                    <Nav.Link href="/contact">Contact</Nav.Link>
+            </Nav>
         )
     }
 }

@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { Container } from 'react-bootstrap';
 
 import MenuContainer from './Containers/menu';
 import BlogContainer from './Containers/blog';
@@ -20,7 +21,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div>
+      <Container fluid>
         <MenuContainer />
         <Switch>
           <Route exact path='/' component={HomeContainer} />
@@ -31,7 +32,7 @@ function App() {
           <Route exact path='/projects/:project' component={ProjectsContainer} />
           <Route component={NotFoundContainer} />
         </Switch>
-      </div>
+      </Container>
     </Router>
   );
 }
