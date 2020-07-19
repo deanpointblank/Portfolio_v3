@@ -1,4 +1,4 @@
-export const contactBlurn = () => {
+export const ContactBlurn = () => {
     return(
         <div>
             <h2>Get in Touch</h2>

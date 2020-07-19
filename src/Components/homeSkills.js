@@ -1,4 +1,4 @@
-export const homeSkills = () => {
+export const HomeSkills = () => {
     return(
         <div>
             <h2>Here are my skills:</h2>

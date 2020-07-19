@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export const blogMain = () => {
+export const BlogMain = () => {
     return(
         <p>FeaturedBlog</p>
     )

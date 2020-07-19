@@ -1,4 +1,4 @@
-export const homeAbout = () => {
+export const HomeAbout = () => {
     return(
         <p>
             Hi, I’m Dean.

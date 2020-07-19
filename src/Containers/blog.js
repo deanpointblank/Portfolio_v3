@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import blogList from '../Components/blogList';
-import blogMain from '../Components/blogMain';
+import {BlogList} from '../Components/blogList';
+import {BlogMain} from '../Components/blogMain';
 
 export default class BlogContainer extends Component {
 
@@ -8,8 +8,8 @@ export default class BlogContainer extends Component {
         return(
             <div>
                 <p>This is the Blog page</p>
-                <blogList />
-                <blogMain />
+                <BlogList />
+                <BlogMain />
             </div>
         )
     }

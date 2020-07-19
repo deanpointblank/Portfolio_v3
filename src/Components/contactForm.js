@@ -1,4 +1,4 @@
-export const contactForm = () => {
+export const ContactForm = () => {
     return(
         <form>
             <input type="text" name="name" placeholder="Name" id="name" value=""></input>
