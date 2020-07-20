@@ -32,7 +32,6 @@ body {
 .homeAbout {
   background-color: #888888;
   color: white;
-  
   box-shadow: -14px 14px 37px 0px rgba(0, 0, 0, 1);
   transform: translatey(0px);
 	animation: float 8s ease-in-out infinite;
