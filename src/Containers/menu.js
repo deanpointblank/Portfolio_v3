@@ -6,7 +6,7 @@ export default class MenuContainer extends Component {
 
     render(){
         return(
-            <Nav defaultActiveKey="/" className="flex-column">
+            <Nav defaultActiveKey="/" className="d-flex flex-column">
                     <Navbar.Brand href="/">Dean Betty</Navbar.Brand>
                     <Nav.Link href="/projects">Projects</Nav.Link>
                     <Nav.Link href="/blog">Blog</Nav.Link>

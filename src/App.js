@@ -24,7 +24,7 @@ function App() {
       <Container fluid className="mh-100">
         <Row className="h-100">
           <Col xs={2}>
-            <MenuContainer />
+            <MenuContainer/>
           </Col>
           <Col>
             <Switch>

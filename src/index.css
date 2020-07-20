@@ -49,6 +49,8 @@ body {
 
 .nav-link {
   color: black;
+  margin-left: 0;
+  padding-left: 0;
 }
 .nav-link:hover {
   color: black;
