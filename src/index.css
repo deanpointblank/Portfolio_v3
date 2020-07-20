@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
 
+
+/* general */
+
 html {
   height: 100%;
 }
@@ -11,7 +14,9 @@ body {
 
 .container-fluid {
   height: 100vh;
+  padding-right: 12px;
 }
+
 
 /* Home page*/
 @keyframes float {
@@ -37,11 +42,18 @@ body {
 	animation: float 8s ease-in-out infinite;
 }
 
+.about-text {
+  font-size: 3.5vw;
+}
+.homeSkills{
+  font-size: 2.5vw;
+}
+
 /* Menu Bar */
 
 .navbar-brand {
   color: black;
-  font-size: 2.25rem;
+  font-size: 2.25vw;
 }
 .navbar-brand:hover{
   color: black;
@@ -70,7 +82,7 @@ body {
   color: black;
   margin-left: 0;
   padding-left: 0;
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 .nav-link:hover{

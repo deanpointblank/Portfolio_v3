@@ -10,35 +10,35 @@ export const HomeSkills = () => {
                 </Col>
             </Row>
 
-            <Row className="display-4 h-25">
-                <Col className="w-100 d-flex justify-content-center">
-                    <div className="d-inline w-25">
-                        Rails
+            <Row className=" h-25">
+                <Col className="display-4w-100 d-flex justify-content-center">
+                    <div className="d-inline w-25 homeSkills">
+                        <h2>Rails</h2>
                     </div>
-                    <div className="d-inline w-25">
-                        Html5
+                    <div className="d-inline w-25 homeSkills">
+                        <h2>Html5</h2>
                     </div>
-                    <div className="d-inline w-25">
-                        Redux
+                    <div className="d-inline w-25 homeSkills">
+                        <h2>Redux</h2>
                     </div>
-                    <div className="d-inline w-25">
-                        Ruby
+                    <div className="d-inline w-25 homeSkills">
+                        <h2>Ruby</h2>
                     </div>
                 </Col>
             </Row>
-            <Row className="display-4 h-25">
+            <Row className="h-25">
                 <Col className="w-100 d-flex justify-content-center">
-                    <div className="d-inline w-25">
-                        React
+                    <div className="d-inline w-25 homeSkills">
+                        <h2>React</h2>
                     </div>
-                    <div className="d-inline w-25">
-                        JavaScript
+                    <div className="d-inline w-25 homeSkills">
+                        <h2>JavaScript</h2>
                     </div>
-                    <div className="d-inline w-25">
-                        SQL
+                    <div className="d-inline w-25 homeSkills">
+                        <h2>SQL</h2>
                     </div>
-                    <div className="d-inline w-25">
-                        Bootstrap
+                    <div className="d-inline w-25 homeSkills">
+                        <h2>Bootstrap</h2>
                     </div>
                 </Col>
             </Row>
