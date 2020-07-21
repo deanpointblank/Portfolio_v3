@@ -10,7 +10,7 @@ export const ContactForm = () => {
                         <Form.Control size="lg"
                         required
                         type="text"
-                        placeholder="First name"
+                        placeholder="Name"
                         />
                     </Form.Group>
                 </Col>    
@@ -20,7 +20,7 @@ export const ContactForm = () => {
                         required
                         size="lg"
                         type="email" 
-                        placeholder="Enter email" 
+                        placeholder="Email" 
                         />
                     </Form.Group>
                 </Col>

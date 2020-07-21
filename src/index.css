@@ -107,15 +107,20 @@ body {
 .contactBlurb-text h2 {
   font-size: 3.5vw;
   padding-bottom: 0.6em;
+  padding-top: 0.6em;
 }
 
 .contactBlurb-text p {
   font-size: 2.5vw;
 }
 
+.contactBlurb-text ul {
+  padding-top: 2em;
+}
+
 .contactBlurb-text li {
   font-size: 2.5vw;
-  padding-left: 11em;
+  padding-left: 10em;
   padding-bottom: 0.6em;
 }
 

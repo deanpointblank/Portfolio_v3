@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 import { ContactBlurb } from '../Components/contactBlurb';
 import { ContactForm } from '../Components/contactForm';
 
