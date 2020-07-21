@@ -8,10 +8,10 @@ export default class ContactContainer extends Component {
     render(){
         return(
             <Row className="h-100">
-                <Col className="h-100 d-flex align-content-center justify-content-center flex-wrap">
+                <Col className="h-100 contactBlurb">
                     <ContactBlurb />
                 </Col>
-                <Col className="h-100 d-flex align-content-center justify-content-center flex-wrap">
+                <Col className="h-100 d-flex align-content-center justify-content-center flex-wrap contactForm homeAbout">
                     <ContactForm />
                 </Col>
             </ Row>

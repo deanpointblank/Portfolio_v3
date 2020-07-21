@@ -1,19 +1,25 @@
 import React, { Component } from 'react';
+import { Row } from 'react-bootstrap';
+import { findRenderedDOMComponentWithTag } from 'react-dom/test-utils';
 
 export const ContactBlurb = () => {
     return(
-        <div>
-            <h2>Get in Touch</h2>
-            <p>
-                I'm interested in medium to long-term contracts
-                and full-time opportunities. However, if you 
-                have any other request feel free to contact me.
-            </p>
-            <ul>
-                <li>LinkedIn</li>
-                <li>GitHub</li>
-                <li>Twitter</li>
-            </ul>
-        </div>
+        <>
+            <Row className="h-50 contactBlurb-text text-center d-flex align-content-center justify-content-center flex-wrap">
+                <h2>Get in Touch</h2>
+                <p>
+                    I'm interested in medium to long-term contracts
+                    and full-time opportunities. However, if you 
+                    have any other request feel free to contact me.
+                </p>
+            </Row>
+            <Row className="h-50 contactBlurb-text text-right d-flex align-content-center justify-content-center flex-wrap">
+                <ul>
+                    <li>LinkedIn</li>
+                    <li>GitHub</li>
+                    <li>Twitter</li>
+                </ul>
+            </Row>
+        </>
     )
 }

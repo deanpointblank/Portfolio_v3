@@ -91,3 +91,17 @@ body {
   /* box-shadow: -14px 14px 37px 0px rgba(0, 0, 0, 1); */
   transform: translatey(0px);
 }
+
+/* Contact Page */
+.contactBlurb {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.contactBlurb-text h2 {
+  font-size: 3.5vw;
+}
+
+.contactBlurb-text p {
+  font-size: 2.5vw;
+}
