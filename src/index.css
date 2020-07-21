@@ -93,6 +93,12 @@ body {
 }
 
 /* Contact Page */
+.contact {
+  background-color: #888888;
+  color: white;
+  box-shadow: -14px 14px 37px 0px rgba(0, 0, 0, 1);
+}
+
 .contactBlurb {
   background-color: #f0f0f0;
   color: black;
@@ -100,8 +106,23 @@ body {
 
 .contactBlurb-text h2 {
   font-size: 3.5vw;
+  padding-bottom: 0.6em;
 }
 
 .contactBlurb-text p {
   font-size: 2.5vw;
+}
+
+.contactBlurb-text li {
+  font-size: 2.5vw;
+  padding-left: 11em;
+  padding-bottom: 0.6em;
+}
+
+.form-group{
+  padding-bottom: 2em;
+}
+
+.form-control-lg{
+  border-radius: 0em;
 }

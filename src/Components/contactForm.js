@@ -7,26 +7,41 @@ export const ContactForm = () => {
             <Row>
                 <Col>
                     <Form.Group>
-                        <Form.Control
+                        <Form.Control size="lg"
                         required
                         type="text"
                         placeholder="First name"
-                        defaultValue="Mark"
                         />
                     </Form.Group>
                 </Col>    
                 <Col>    
                     <Form.Group>
-                        <Form.Control type="email" placeholder="Enter email" />
+                        <Form.Control
+                        required
+                        size="lg"
+                        type="email" 
+                        placeholder="Enter email" 
+                        />
                     </Form.Group>
                 </Col>
             </Row>    
             <Form.Group>
-                <Form.Control type="text" placeholder="Message" />
+                <Form.Control
+                required
+                size="lg"
+                type="text"
+                placeholder="Subject"
+                />
             </Form.Group>
                 
             <Form.Group>
-                <Form.Control as="textarea" placeholder="Message" rows="3" />
+                <Form.Control
+                required
+                size="lg"
+                as="textarea"
+                placeholder="Message"
+                rows="3"
+                />
             </Form.Group>
                 
             <Button variant="primary" type="submit">

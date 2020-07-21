@@ -13,8 +13,8 @@ export const ContactBlurb = () => {
                     have any other request feel free to contact me.
                 </p>
             </Row>
-            <Row className="h-50 contactBlurb-text text-right d-flex align-content-center justify-content-center flex-wrap">
-                <ul>
+            <Row className="h-50 contactBlurb-text text-left d-flex align-content-center justify-content-center flex-wrap">
+                <ul class="list-unstyled">
                     <li>LinkedIn</li>
                     <li>GitHub</li>
                     <li>Twitter</li>
