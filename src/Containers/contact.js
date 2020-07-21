@@ -7,11 +7,11 @@ export default class ContactContainer extends Component {
 
     render(){
         return(
-            <Row>
-                <Col>
+            <Row className="h-100">
+                <Col className="h-100 d-flex align-content-center justify-content-center flex-wrap">
                     <ContactBlurb />
                 </Col>
-                <Col>
+                <Col className="h-100 d-flex align-content-center justify-content-center flex-wrap">
                     <ContactForm />
                 </Col>
             </ Row>
