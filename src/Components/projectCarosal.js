@@ -7,8 +7,8 @@ export const ProjectCarosal = () => {
             <Carousel>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=First slide&bg=373940"
+                    className="d-block w-100 h-100"
+                    src="holder.js/800x495?text=First slide&bg=373940"
                     alt="First slide"
                     />
                     <Carousel.Caption>
@@ -18,8 +18,8 @@ export const ProjectCarosal = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
+                    className="d-block w-100 h-100"
+                    src="holder.js/800x495?text=Second slide&bg=282c34"
                     alt="Third slide"
                     />
 
@@ -30,8 +30,8 @@ export const ProjectCarosal = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
+                    className="d-block w-100 h-100"
+                    src="holder.js/800x495?text=Third slide&bg=20232a"
                     alt="Third slide"
                     />
 
