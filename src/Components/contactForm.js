@@ -24,7 +24,8 @@ export const ContactForm = () => {
                         />
                     </Form.Group>
                 </Col>
-            </Row>    
+            </Row>
+            <Row>    
             <Form.Group>
                 <Form.Control
                 required
@@ -33,7 +34,8 @@ export const ContactForm = () => {
                 placeholder="Subject"
                 />
             </Form.Group>
-                
+            </Row>
+            <Row>    
             <Form.Group>
                 <Form.Control
                 required
@@ -43,10 +45,10 @@ export const ContactForm = () => {
                 rows="3"
                 />
             </Form.Group>
-                
-            <Button variant="primary" type="submit">
-                Send
-            </Button>
+            </Row>
+                <Button variant="outline-light" type="submit" className="w-25 float-right">
+                    Send
+                </Button>
         </Form>
     )
 }

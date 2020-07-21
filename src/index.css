@@ -126,3 +126,8 @@ body {
 .form-control-lg{
   border-radius: 0em;
 }
+
+.btn-outline-light{
+  border-color: #ffe8df;
+  color: #ffe8df;
+}
