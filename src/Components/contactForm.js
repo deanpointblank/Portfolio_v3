@@ -1,13 +1,37 @@
 import React, { Component } from 'react';
+import { Form, Button, Row, Col } from 'react-bootstrap';
 
 export const ContactForm = () => {
     return(
-        <form>
-            <input type="text" name="name" placeholder="Name" id="name" value=""></input>
-            <input type="email" name="email" placeholder="Email" id="email" value=""></input>
-            <input type="text" name="subject" placeholder="Subject" id="subject" value=""></input>
-            <textarea type="text" name="message" placeholder="Message" id="message" value=""></textarea>
-            <input type="submit" value="send" />
-        </form>
+        <Form>
+            <Row>
+                <Col>
+                    <Form.Group>
+                        <Form.Control
+                        required
+                        type="text"
+                        placeholder="First name"
+                        defaultValue="Mark"
+                        />
+                    </Form.Group>
+                </Col>    
+                <Col>    
+                    <Form.Group>
+                        <Form.Control type="email" placeholder="Enter email" />
+                    </Form.Group>
+                </Col>
+            </Row>    
+            <Form.Group>
+                <Form.Control type="text" placeholder="Message" />
+            </Form.Group>
+                
+            <Form.Group>
+                <Form.Control as="textarea" placeholder="Message" rows="3" />
+            </Form.Group>
+                
+            <Button variant="primary" type="submit">
+                Send
+            </Button>
+        </Form>
     )
 }
