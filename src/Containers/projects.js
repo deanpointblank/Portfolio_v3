@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { ProjectCarosal } from '../Components/projectCarosal';
+import { ProjectInfo } from '../Components/projectInfo';
 import { ProjectDisplay } from '../Components/projectDisplay';
 import { ProjectList } from '../Components/projectsList';
 import SideMenu from '../Components/sideMenu';
@@ -12,13 +12,11 @@ export default class ProjectsContainer extends Component {
         return(
             <div>
                 <Row className="h-50">
-                    {/* <ProjectList />
-                    <ProjectDisplay /> */}
                     <Col xs="2">
-                        <SideMenu />
+                        <SideMenu projectlist={""}/>
                     </Col>
                     <Col>
-                        <ProjectCarosal />
+                        <ProjectInfo currentProject={""}/>
                     </Col>
                 </Row>
             </div>
