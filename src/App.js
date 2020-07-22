@@ -22,8 +22,8 @@ function App() {
   return (
     <Router>
       <Container fluid className="mh-100">
+        <MenuContainer/>
         <Row className="h-100">
-            <MenuContainer/>
             <Switch>
               <Route exact path='/' component={HomeContainer} />
               <Route exact path='/blog' component={BlogContainer} />

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Row, Nav, Navbar } from 'react-bootstrap';
 
 export default class MenuContainer extends Component {
 
     render(){
         return(
+            <Row>
             <Navbar bg="light" expand="lg" defaultActiveKey="/">
                     <Navbar.Brand href="/"><span className="underlined">Dean Betty</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -16,6 +17,7 @@ export default class MenuContainer extends Component {
                         </Nav>
                     </Navbar.Collapse>
             </Navbar>
+            </Row>
         )
     }
 }
