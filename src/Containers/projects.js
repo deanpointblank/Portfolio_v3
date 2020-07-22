@@ -5,21 +5,38 @@ import SideMenu from '../Components/sideMenu';
 
 
 export default class ProjectsContainer extends Component {
+    constructor(){
+        super();
+        this.state ={
+            error: null,
+            isLoaded: false,
+            projects: []
+        }
+    }
     
+    componentDidMount(){
+    }
 
 
     render(){
-        return(
-            <div>
-                <Row className="h-50">
-                    <Col xs="2">
-                        <SideMenu projectlist={""}/>
-                    </Col>
-                    <Col>
-                        <ProjectInfo currentProject={""}/>
-                    </Col>
-                </Row>
-            </div>
-        )
+        const {error, isLoaded, projects} = this.state;
+        if (error){
+            return <>{error}</>;
+        } else if (isLoaded) {
+            return <>Loading</>
+        } else{
+            return(
+                <div>
+                    <Row className="h-50">
+                        <Col xs="2">
+                            <SideMenu projectlist={""}/>
+                        </Col>
+                        <Col>
+                            <ProjectInfo currentProject={""}/>
+                        </Col>
+                    </Row>
+                </div>
+            )
+        }
     }
 }
