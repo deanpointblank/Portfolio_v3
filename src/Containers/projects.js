@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Row } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import { ProjectCarosal } from '../Components/projectCarosal';
 import { ProjectDisplay } from '../Components/projectDisplay';
 import { ProjectList } from '../Components/projectsList';
+import SideMenu from '../Components/sideMenu';
 
 
 export default class ProjectsContainer extends Component {
@@ -13,10 +14,12 @@ export default class ProjectsContainer extends Component {
                 <Row className="h-50">
                     {/* <ProjectList />
                     <ProjectDisplay /> */}
-                    <ProjectCarosal />
-                </Row>
-                <Row className="h-50">
-                    <ProjectList />
+                    <Col xs="2">
+                        <SideMenu />
+                    </Col>
+                    <Col>
+                        <ProjectCarosal />
+                    </Col>
                 </Row>
             </div>
         )

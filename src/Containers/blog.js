@@ -9,7 +9,7 @@ export default class BlogContainer extends Component {
     render(){
         return(
             <>
-                <Col>
+                <Col xs="2">
                     <SideMenu />
                 </Col>
                 <Col>
