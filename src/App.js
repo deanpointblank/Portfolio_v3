@@ -23,10 +23,7 @@ function App() {
     <Router>
       <Container fluid className="mh-100">
         <Row className="h-100">
-          <Col xs={2}>
             <MenuContainer/>
-          </Col>
-          <Col>
             <Switch>
               <Route exact path='/' component={HomeContainer} />
               <Route exact path='/blog' component={BlogContainer} />
@@ -36,7 +33,6 @@ function App() {
               <Route exact path='/projects/:project' component={ProjectsContainer} />
               <Route component={NotFoundContainer} />
             </Switch>
-          </Col>
         </Row>
       </Container>
     </Router>

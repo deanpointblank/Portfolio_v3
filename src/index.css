@@ -26,7 +26,7 @@ body {
 	}
 	50% {
 		box-shadow: -14px 20px 37px 0px rgba(0, 0, 0, 1);
-		transform: translatey(-20px);
+		transform: translatey(-10px);
 	}
 	100% {
 		box-shadow: -14px 14px 37px 0px rgba(0, 0, 0, 1);
@@ -39,7 +39,7 @@ body {
   color: white;
   box-shadow: -14px 14px 37px 0px rgba(0, 0, 0, 1);
   transform: translatey(0px);
-	animation: float 8s ease-in-out infinite;
+	animation: float 4s ease-in-out infinite;
 }
 
 .about-text {
@@ -56,9 +56,14 @@ body {
   color: black;
   font-size: 2.25vw;
 }
+
 .navbar-brand:hover{
   color: black;
   transform: translatey(0px);
+}
+
+.bg-light {
+  background-color: #ffe8df!important;
 }
 
 .underlined:before {
