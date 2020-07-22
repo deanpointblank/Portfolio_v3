@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import { Image } from 'react-bootstrap';
+import 'holderjs';
 
-export const BlogMain = () => {
+export const BlogMain = (props) => {
     return(
-        <p>FeaturedBlog</p>
+        <>
+        <Image src="holder.js/100px250" fluid />
+        </>
     )
 }

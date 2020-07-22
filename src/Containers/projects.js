@@ -29,7 +29,7 @@ export default class ProjectsContainer extends Component {
                 <div>
                     <Row className="h-50">
                         <Col xs="2">
-                            <SideMenu projectlist={""}/>
+                            <SideMenu menuList={""}/>
                         </Col>
                         <Col>
                             <ProjectInfo currentProject={""}/>
