@@ -15,6 +15,20 @@ export default class BlogContainer extends Component {
     }
     
     componentDidMount(){
+        fetch("http://159.65.218.140/posts")
+        .then(res => res.json())
+        .then(posts => {
+            this.setState({
+                isLoaded: true
+            })
+            console.log(posts)
+        })
+        .catch(error => {
+            this.setState({
+                isLoaded: true,
+                error
+            })
+        })
     }
 
     render(){
@@ -27,10 +41,10 @@ export default class BlogContainer extends Component {
             return(
                 <>
                     <Col xs="2">
-                        <SideMenu menuList={""}/>
+                        <SideMenu menuList={posts}/>
                     </Col>
                     <Col>
-                        <BlogMain />
+                        <BlogMain Currentpost={posts[0]}/>
                     </Col>
                 </>
             )
