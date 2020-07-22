@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { ProjectInfo } from '../Components/projectInfo';
-import { ProjectDisplay } from '../Components/projectDisplay';
-import { ProjectList } from '../Components/projectsList';
 import SideMenu from '../Components/sideMenu';
 
 
 export default class ProjectsContainer extends Component {
+    
+
 
     render(){
         return(
