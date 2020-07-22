@@ -6,7 +6,7 @@ export default class MenuContainer extends Component {
     render(){
         return(
             <Row>
-            <Navbar bg="light" expand="lg" defaultActiveKey="/">
+                <Navbar bg="light" expand="lg" defaultActiveKey="/">
                     <Navbar.Brand href="/"><span className="underlined">Dean Betty</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -16,7 +16,7 @@ export default class MenuContainer extends Component {
                             <Nav.Link className="underlined" href="/contact">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
-            </Navbar>
+                </Navbar>
             </Row>
         )
     }

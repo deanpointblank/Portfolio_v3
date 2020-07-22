@@ -13,6 +13,7 @@ import ContactContainer from './Containers/contact';
 import HomeContainer from './Containers/home';
 import NotFoundContainer from './Containers/notFound';
 import ProjectsContainer from './Containers/projects';
+import { slide as Menu } from 'react-burger-menu';
 
 
 import logo from './logo.svg';
@@ -21,6 +22,12 @@ import './App.css';
 function App() {
   return (
     <Router>
+        <Menu>
+        <a id="home" className="menu-item" href="/">Home</a>
+        <a id="about" className="menu-item" href="/about">About</a>
+        <a id="contact" className="menu-item" href="/contact">Contact</a>
+        {/* <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
+        </Menu>
       <Container fluid className="mh-100">
         <MenuContainer/>
         <Row className="h-100">
