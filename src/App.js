@@ -13,7 +13,7 @@ import ContactContainer from './Containers/contact';
 import HomeContainer from './Containers/home';
 import NotFoundContainer from './Containers/notFound';
 import ProjectsContainer from './Containers/projects';
-// import { slide as Menu } from 'react-burger-menu';
+
 
 
 import logo from './logo.svg';
