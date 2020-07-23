@@ -3,15 +3,25 @@ import { Row, Nav, Navbar } from 'react-bootstrap';
 
 export default class SideMenu extends Component {
 
+    // showPostInMenu = (posts) =>{
+
+    //     posts.map(post=>{
+    //         console.log(post)
+    //         return(
+    //             <Nav.Link className="underlined" href={`/blog/${post.Title.split(" ").join("_")}`}>{post.Title}</Nav.Link>
+    //         )
+    //     })
+    // }
+
     render(){
         return(
-            <Navbar bg="light" expand="lg" defaultActiveKey="/" className="flex-column">
+            <Navbar bg="light" expand="lg" defaultActiveKey="/" className="flex-column sideMenu">
             {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
             {/* <Navbar.Collapse id="basic-navbar-nav"> */}
                 <Nav className="mr-auto flex-column">
-                    <Nav.Link className="underlined" href="/projects">Projects</Nav.Link>
-                    <Nav.Link className="underlined" href="/blog">Blog</Nav.Link>
-                    <Nav.Link className="underlined" href="/contact">Contact</Nav.Link>
+                    {this.props.menuList.map(post => {
+                       return <Nav.Link className="underlined" href={`/blog/${post.Title.split(" ").join("_")}`}>{post.Title}</Nav.Link>
+                    })}
                 </Nav>
             {/* </Navbar.Collapse> */}
         </Navbar>
