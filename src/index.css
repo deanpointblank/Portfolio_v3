@@ -142,3 +142,8 @@ body {
   border-color: #ffe8df;
   color: #ffe8df;
 }
+
+/*side menu */
+.sideMenu{
+  font-size: 1.2vw;
+}
