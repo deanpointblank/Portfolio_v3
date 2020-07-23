@@ -31,6 +31,14 @@ export default class BlogContainer extends Component {
         })
     }
 
+    currentblog = (url) =>{
+        if(!url.blog){
+            return <BlogMain Currentpost={this.state.posts[0]}/>
+        } else {
+            return <BlogMain Currentpost={this.state.posts.find(blog => blog.id == [url.blog])}/>
+        }
+    }
+
     render(){
         const {error, isLoaded, posts} = this.state;
         if (error){
@@ -44,7 +52,8 @@ export default class BlogContainer extends Component {
                         <SideMenu menuList={posts}/>
                     </Col>
                     <Col>
-                        <BlogMain Currentpost={posts[0]}/>
+                        {/* <BlogMain Currentpost={posts[0]}/> */}
+                        {this.currentblog(this.props.match.params)}
                     </Col>
                 </>
             )
